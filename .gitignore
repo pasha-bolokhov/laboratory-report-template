@@ -1,0 +1,17 @@
+#
+*.aux
+*.dvi
+*.log
+*.toc
+texput.log
+*.bak
+*~
+#*.pdf
+#*.jpg
+
+# do not include 'latexcolors.tex'
+latexcolors.tex
+
+# do not include '*.out' files created by LaTeX
+*.out
+
