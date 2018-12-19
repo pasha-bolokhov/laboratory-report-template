@@ -151,13 +151,16 @@
 	that it is obvious that $ v $ is the speed of the cart
 
 \item
+	it must be clear how each quantity was measured or obtained
+
+\item
 	each \emph{quantity} must be assigned a \emph{unique} letter --- $ v $, $ a $, $ m $, $ M $, $ R $ and so on
 
 \item
 	note here that, repetitive measurements of the same quantity do not need different letters
 
 \item
-	at the same time, if you have velocities of two or more objects, then you can differentiate
+	at the same time, if you have velocities or masses of two or more objects, then you can differentiate
 	them by putting subscripts $ v_1 $, $ v_2 $, $ v_\text{avg} $, $ v_\text{in} $, $ v_\text{fin} $ or capitalizing one of them
 
 \item
@@ -169,6 +172,14 @@
 
 \item
 	only mathematical and physical constants ($ \pi $, $ e $, $ g $ and so on) do not need explanation, unless a confusion can be made
+
+\item
+	avoid excess number of data tables --- for instance, if a large number of repetitive or similar measurements are taken,
+	of which you will only need the average values,
+	provide summarizing tables only, if that is enough for the following analysis and conclusions
+
+\item
+	clarity and conciseness are key --- as everywhere else in the report
 \end{itemize}
 
 	Note, again, that any algebraic \emph{letter} must come defined, \emph{i.e.} do not assume that $ F $ is force or $ P $ is pressure,
@@ -205,12 +216,19 @@
 \section*{\textit{Calculations}}
 
 	This is the \textit{Calculations} or \textit{Analysis} section.
-	Short calculations can go into the \textit{Observations} section, if it makes sense.
+	Short calculations can go into the \textit{Observations} section, if this makes sense.
 	For instance, the calculation of the average speed or mass can be quoted
 	in the \textit{Observations} section.
 	You \emph{do not need} to explain how to calculate the average.
 	However, more involved calculations need an explanation.
 	A formula must be quoted whenever applicable.
+	If such a formula is a physics law, such as the Newton's Law, or momentum conservation law ---
+	it should be quoted as the origin of the formula.
+
+	The same rules for naming the quantities as in \emph{Observations} apply here.
+	In fact, in this section you will more likely introduce additional quantities.
+	Therefore, it is important to be systematic and careful with naming them,
+	referring to them, and quoting the numerical values with the appropriate units.
 
 	We calculate the energy of Millennium Falcon according to the Einstein--Palpatine formula,
 \[
@@ -232,14 +250,14 @@
 %
 \toprule
 %
-	Spacecraft	&	$ m $ ($\times 10^3\,\si{\kg}$)	&	$ R $ (kiloparsec)	\\[2mm]
+	Spacecraft			&	$ m $ ($\times 10^3\,\si{\kg}$)	&	$ R $ (kiloparsec)	\\[2mm]
 %
 \midrule
 %
-	Millennium Falcon	&	45	&	1.6	\\[2mm]
-	Radiant VII		&	620	&	2.1	\\[2mm]
-	Rogue Shadow		&	58	&	1.7	\\[2mm]
-	CR90 Corvette		&	440	&	2.4	\\[2mm]
+	\textsl{Millennium Falcon}	&	45	&	1.6	\\[2mm]
+	\textsl{Radiant VII}		&	620	&	2.1	\\[2mm]
+	\textsl{Rogue Shadow}		&	58	&	1.7	\\[2mm]
+	\textsl{CR90 Corvette}		&	440	&	2.4	\\[2mm]
 %
 \bottomrule
 \end{tabular}
@@ -247,7 +265,7 @@
 	Here $ m $ is the gross relativistic mass of the spacecraft, and $ R $ is the optimal shot range.
 
 	Error analysis also belongs here.
-	However, if this analysis is quite short, it can be moved to Conclusion section
+	However, if this analysis is quite short, it can be moved to \emph{Conclusion} section
 	if this makes more sense.
 
 
